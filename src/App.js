@@ -10,6 +10,7 @@ import Technologies from "./components/Technologies/Technologies"
 import Timeline from "./components/TimeLine/TimeLine"
 import Acomplishments from "./components/Acomplishments/Acomplishments"
 
+
 function App() {
   return (
     <ThemeApplier>

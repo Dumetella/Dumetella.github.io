@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: 'Websockets chatroom',
+    title: 'Websockets Chatroom',
     description: "My take on chat application, using React, Node.js, Express, and Socket.io",
     image: '/images/1.jpg',
-    tags: ['Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
+
 ];
 
 export const TimeLineData = [
