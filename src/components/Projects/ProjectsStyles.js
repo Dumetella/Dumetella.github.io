@@ -7,6 +7,10 @@ export const Img = styled.img`
   overflow: hidden;
 `
 
+export const ImgContainer = styled.div`
+  display: flex;
+`
+
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
