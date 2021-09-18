@@ -10,11 +10,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">1-900-SUICIDE</LinkItem>
+          <LinkItem href="tel:1-900-SUICIDE">1-900-SUICIDE</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
+          <LinkItem href="dumetella@outlook.com">
             dumetella@outlook.com
           </LinkItem>
         </LinkColumn>
@@ -24,7 +24,7 @@ const Footer = () => {
           <Slogan>Stuff happens cuz stuff</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/Dumetella">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://google.com">

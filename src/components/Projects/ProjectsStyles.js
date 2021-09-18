@@ -3,12 +3,14 @@ import styled from 'styled-components';
 export const Img = styled.img`
   width:100%;
   height:100%;
-  object-fit: scale-down;
+  object-fit: cover;
   overflow: hidden;
+  max-height: 200px;
 `
 
 export const ImgContainer = styled.div`
   display: flex;
+  flex: 0 1;
 `
 
 export const GridContainer = styled.section`

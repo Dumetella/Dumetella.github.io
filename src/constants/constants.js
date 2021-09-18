@@ -7,6 +7,14 @@ export const projects = [
     visit: 'https://google.com',
     id: 0,
   },
+  {
+    title: 'React 15-Game',
+    description: "Small game project written with React, TypeScript and Styled-Components.",
+    image: '/images/2.png',
+    source: 'https://github.com/Dumetella/react-15game',
+    visit: 'https://google.com',
+    id: 1,
+  },
 
 ];
 
