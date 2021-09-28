@@ -1,19 +1,11 @@
 export const projects = [
   {
-    title: 'Websockets Chatroom',
-    description: "My take on chat application, using React, Node.js, Express, and Socket.io",
-    image: '/images/1.jpg',
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
-    title: 'React 15-Game',
-    description: "Small game project written with React, TypeScript and Styled-Components.",
-    image: '/images/2.png',
+    title: 'React Puzzle Games',
+    description: "Small game project written with React, TypeScript and styled-components.",
+    image: '/images/1.png',
     source: 'https://github.com/Dumetella/react-15game',
     visit: 'https://google.com',
-    id: 1,
+    id: 0,
   },
 
 ];

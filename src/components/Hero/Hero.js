@@ -15,10 +15,12 @@ const Hero = (props) => (
         <SectionText>
           I like coffee and to create useless web-applications at 5AM.
         </SectionText>
-        <Button onClick={props.handleClick}>Invite to Dota2</Button>
+
       </LeftSection>
     </Section>
   </>
 );
 
 export default Hero;
+
+//<Button onClick={props.handleClick}>Invite to Dota2</Button>

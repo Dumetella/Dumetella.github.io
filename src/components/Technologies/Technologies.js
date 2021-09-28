@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I try to learn as much as i can, but for now i can manage JS and React.
+      I have little commercial development experience, but I have a lot of enthusiasm for the modern front-end
     </SectionText>
     <List>
       <ListItem>
@@ -18,8 +18,11 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            intermediate experience with: <br />
+            React.js, <br />
+            TypeScript, <br />
+            Redux, <br />
+            styled-components <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -30,8 +33,11 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Little to none experience with <br />
-            Node
+            Beginner experience with: <br />
+            Node.js, <br />
+            Express, <br />
+            MongoDB, <br />
+            Nginx <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

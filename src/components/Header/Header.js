@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { FaGithub, FaTelegram } from 'react-icons/fa';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -20,13 +20,10 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Dumetella">
-        <AiFillGithub size="3rem" />
+        <FaGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://google.com">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="https://t.me/dumetella">
+        <FaTelegram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

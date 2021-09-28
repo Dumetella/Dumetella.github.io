@@ -4,7 +4,6 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/globalStyles
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 3000, text: 'Dota MMR' },
   { number: 1600, text: 'Lichess Elo', },
 ];
 
