@@ -11,8 +11,8 @@ export const projects = [
     title: 'React Weather',
     description: "Forecast web application written with React, TypeScript and MaterialUI",
     image: '/images/react_weather.png',
-    source: 'https://github.com/Dumetella/react-15game',
-    visit: 'https://google.com',
+    source: 'https://github.com/Dumetella/react-weather',
+    visit: 'https://dumetella-weather.herokuapp.com/',
     id: 0,
   },
 

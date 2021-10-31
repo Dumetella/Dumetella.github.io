@@ -5,11 +5,12 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import { Section } from "./styles/globalStyles/globalHTML"
 import Hero from "./components/Hero/Hero"
-import BgAnimation from "./components/BackgrooundAnimation/BackgroundAnimation"
 import Projects from "./components/Projects/Projects"
 import Technologies from "./components/Technologies/Technologies"
 import Acomplishments from "./components/Acomplishments/Acomplishments"
 import Theme from './styles/globalStyles/theme';
+import Coffee from './components/Coffee/Coffee';
+import About from './components/About/About';
 
 export default function App() {
   return (
@@ -18,10 +19,11 @@ export default function App() {
         <Header />
         <Section grid={true} >
           <Hero />
-          <BgAnimation />
+          <Coffee />
         </Section>
         <Projects />
         <Technologies />
+        <About />
         <Acomplishments />
         <Footer />
       </Container>
