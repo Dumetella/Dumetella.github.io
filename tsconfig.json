@@ -9,9 +9,9 @@
       "esnext"
     ],
     "strict": true,
-    "sourceMap": true,
+    //"sourceMap": true,
     "target": "esnext",
-    "outDir": "./dist",
+    //"outDir": "./dist",
     "baseUrl": ".",
   },
   "exclude": [
