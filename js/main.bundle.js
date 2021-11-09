@@ -108,7 +108,7 @@ padding: 8px;
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
   }
-`,w=r.default.a`
+`,k=r.default.a`
 	font-size: 2rem;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
@@ -135,7 +135,7 @@ padding: 8px;
 		display: flex;
 		align-items: center;
 	}
-`,k=r.default.div`
+`,w=r.default.div`
 max-width: 1040px;
 display: flex;
 justify-content: space-between;
@@ -235,7 +235,7 @@ justify-content: space-between;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
-`;function j(){return a.createElement(b,null,a.createElement(v,null,a.createElement(z,null,a.createElement(F,null,"Email"),a.createElement(w,{href:"mailto:dumetella@outlook.com"},"dumetella@outlook.com"))),a.createElement(k,null,a.createElement(E,null,a.createElement($,null,"Stuff happens cuz stuff")),a.createElement(y,null,a.createElement(u,{href:"https://github.com/Dumetella"},a.createElement(m.hJX,{size:"3em"})),a.createElement(u,{href:"https://t.me/dumetella"},a.createElement(m.Ww5,{size:"3em"})))))}const D=r.default.section`
+`;function j(){return a.createElement(b,null,a.createElement(v,null,a.createElement(z,null,a.createElement(F,null,"Email"),a.createElement(k,{href:"mailto:dumetella@outlook.com"},"dumetella@outlook.com"))),a.createElement(w,null,a.createElement(E,null,a.createElement($,null,"Stuff happens cuz stuff")),a.createElement(y,null,a.createElement(u,{href:"https://github.com/Dumetella"},a.createElement(m.hJX,{size:"3em"})),a.createElement(u,{href:"https://t.me/dumetella"},a.createElement(m.Ww5,{size:"3em"})))))}const D=r.default.section`
   display: ${e=>e.grid?"grid":"flex"};
   flex-direction: ${e=>e.row?"row":"column"};
   padding: ${e=>e.nopadding?"0":"32px 48px 0"} ;
@@ -305,7 +305,7 @@ justify-content: space-between;
     line-height: 24px;
     padding-bottom: 16px;
   }
-`,P=r.default.div`
+`,M=r.default.div`
 
   width: 64px;
   height: 6px;
@@ -324,7 +324,7 @@ justify-content: space-between;
     width: 32px;
     height: 2px;
   }
-`,A=(r.default.p`
+`,P=(r.default.p`
   max-width: 800px;
   font-weight: 300;
   font-size: 18px;
@@ -511,16 +511,16 @@ justify-content: space-between;
 
     margin: 0 auto;
   }
-`);function B(){return a.createElement(a.Fragment,null,a.createElement(D,{row:!0,nopadding:!0},a.createElement(A,null,a.createElement(S,{main:!0,center:!0},"Hi ",a.createElement("br",null),"I am Dumetella"),a.createElement(O,null,"I like coffee and to create useless web-applications at 5AM."))))}const M=r.default.img`
+`);function I(){return a.createElement(a.Fragment,null,a.createElement(D,{row:!0,nopadding:!0},a.createElement(P,null,a.createElement(S,{main:!0,center:!0},"Hi ",a.createElement("br",null),"I am Dumetella"),a.createElement(O,null,"I like coffee and to create useless web-applications at 5AM."))))}const _=r.default.img`
   width:100%;
   height:100%;
   object-fit: cover;
   overflow: hidden;
   max-height: 200px;
-`,_=r.default.div`
+`,A=r.default.div`
   display: flex;
   flex: 0 1;
-`,T=r.default.section`
+`,B=r.default.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
@@ -534,11 +534,12 @@ row-gap: 3rem;
   padding-bottom: 0;
 }
 
-`,I=r.default.div`
+`,C=r.default.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  height: 450px;
   @media ${e=>e.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -547,19 +548,19 @@ row-gap: 3rem;
   z-index: 20;
   width: 100%;
 
-`,C=r.default.h3`
+`,T=r.default.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding-top: 2rem;
   font-size: ${e=>e.title?"3rem":"2rem"};
-`,G=r.default.hr`
+`,W=r.default.hr`
   width: 50px;
   height: 3px;
   margin: 20px auto;
   border: 0;
   background: #d0bb57;
-`,W=(r.default.div`
+`,G=(r.default.div`
   width: 170px;
   margin: 0 auto;
   color: #dce3e7;
@@ -578,31 +579,32 @@ row-gap: 3rem;
     padding:.3rem
   
 }
-`),L=r.default.ul`
+`),U=r.default.ul`
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
-`,N=r.default.a`
+`,L=r.default.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
+width: 8rem;
 &:hover{
   background: #801414;
 
 }
-`,U=(r.default.ul`
+`,N=(r.default.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
 `,r.default.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-`,[{title:"React Puzzle Games",description:"Small game project written with React, TypeScript and styled-components.",image:"/images/taken.png",source:"https://github.com/Dumetella/react-15game",visit:"https://google.com",id:0},{title:"React Weather",description:"Forecast web application written with React, TypeScript and MaterialUI",image:"/images/react_weather.png",source:"https://github.com/Dumetella/react-weather",visit:"https://dumetella-weather.herokuapp.com/",id:0}]);function X(){return a.createElement(D,{nopadding:!0,id:"projects"},a.createElement(P,null),a.createElement(S,{main:!0},"Projects"),a.createElement(T,null,U.map(((e,t)=>a.createElement(I,{key:t},a.createElement(_,null,a.createElement(M,{src:e.image})),a.createElement(R,null,a.createElement(C,null,e.title),a.createElement(G,null)),a.createElement(W,{className:"card-info"},e.description),a.createElement(L,null,a.createElement(N,{href:e.visit},"Live"),a.createElement(N,{href:e.source},"Source")))))))}var J=i(859);r.default.div`
+`,[{title:"React Chat",description:"Websocket chat application inspired by old RTC-chats.",image:"/images/react_chat.png",source:"https://github.com/Dumetella/react-weather",visit:"https://github.com/Dumetella/react-chat-front",stack:["react","ts","MUI"],id:0},{title:"React Weather",description:"Small forecast web application",image:"/images/react_weather.png",source:"https://github.com/Dumetella/react-weather",stack:["react","ts","MUI"],visit:"https://dumetella-weather.herokuapp.com/",id:1},{title:"React Puzzle Games",description:"Longterm WIP project.",image:"/images/taken.png",source:"https://github.com/Dumetella/react-15game",stack:["react","ts","MUI"],visit:"",id:2}]),X=[{number:1600,text:"Lichess Elo"}];function J(){return a.createElement(D,{nopadding:!0,id:"projects"},a.createElement(M,null),a.createElement(S,{main:!0},"Projects"),a.createElement(B,null,N.map(((e,t)=>a.createElement(C,{key:t},a.createElement(A,null,a.createElement(_,{src:e.image})),a.createElement(R,null,a.createElement(T,null,e.title),a.createElement(W,null)),a.createElement(G,{className:"card-info"},e.description),a.createElement(U,null,a.createElement(L,{href:e.visit},"Live"),a.createElement(L,{href:e.source},"Source")))))))}var H=i(859);r.default.div`
   text-align: center;
   background-image: radial-gradient(50% 50% at 50% 50%, rgba(79, 108, 176, 0.25) 53.8%, rgba(79, 108, 176, 0) 100%);
   width: 100%;
@@ -625,7 +627,7 @@ font-size: 1.5rem;
   }
 `,r.default.img`
   width: 100%;
-`;const H=r.default.ul`
+`;const Q=r.default.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -646,7 +648,7 @@ font-size: 1.5rem;
     flex-direction: column;
     margin: 32px 0;
   }
-`,Q=r.default.div`
+`,q=r.default.div`
   display: flex;
   flex-direction: column;
 
@@ -654,7 +656,7 @@ font-size: 1.5rem;
     display: flex;
     margin-left: 18px;
   }
-`,q=r.default.h4`
+`,K=r.default.h4`
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
@@ -673,7 +675,7 @@ font-size: 1.5rem;
   letter-spacing: 0.02em;
   margin-bottom: 4px;
 }
-`,K=r.default.p`
+`,V=r.default.p`
   font-size: 18px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
@@ -687,7 +689,7 @@ font-size: 1.5rem;
     font-size: 14px;
     line-height: 22px;
   }
-`,V=r.default.li`
+`,Y=r.default.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
@@ -718,7 +720,7 @@ font-size: 1.5rem;
     height: 32px;
     margin-bottom: 0px;
   }
-`;function Y(){return a.createElement(D,{id:"tech"},a.createElement(P,{divider:!0}),a.createElement(S,null,"Technologies"),a.createElement(O,null,"I have little commercial development experience, but I have a lot of enthusiasm for the modern front-end"),a.createElement(H,null,a.createElement(V,null,a.createElement("picture",null,a.createElement(J.GR$,{size:"3em"})),a.createElement(Q,null,a.createElement(q,null,"Front-End"),a.createElement(K,null,"intermediate experience with: ",a.createElement("br",null),"React.js, ",a.createElement("br",null),"TypeScript, ",a.createElement("br",null),"Redux, ",a.createElement("br",null),"styled-components ",a.createElement("br",null)))),a.createElement(V,null,a.createElement("picture",null,a.createElement(J.BwW,{size:"3em"})),a.createElement(Q,null,a.createElement(q,null,"Back-End"),a.createElement(K,null,"Beginner experience with: ",a.createElement("br",null),"Node.js, ",a.createElement("br",null),"Express, ",a.createElement("br",null),"SQL, ",a.createElement("br",null),"Nginx ",a.createElement("br",null)))),a.createElement(V,null,a.createElement("picture",null,a.createElement(J.MSM,{size:"3em"})),a.createElement(Q,null,a.createElement(q,null,"UI/UX"),a.createElement(K,null,"Average experience with ",a.createElement("br",null),"Figma and Photoshop")))),a.createElement(P,{colorAlt:!0}))}const Z=r.default.div`
+`;function Z(){return a.createElement(D,{id:"tech"},a.createElement(M,{divider:!0}),a.createElement(S,null,"Technologies"),a.createElement(O,null,"I have little commercial development experience, but I have a lot of enthusiasm for the modern front-end"),a.createElement(Q,null,a.createElement(Y,null,a.createElement("picture",null,a.createElement(H.GR$,{size:"3em"})),a.createElement(q,null,a.createElement(K,null,"Front-End"),a.createElement(V,null,"intermediate experience with: ",a.createElement("br",null),"React.js, ",a.createElement("br",null),"TypeScript, ",a.createElement("br",null),"Redux, ",a.createElement("br",null),"styled-components ",a.createElement("br",null)))),a.createElement(Y,null,a.createElement("picture",null,a.createElement(H.BwW,{size:"3em"})),a.createElement(q,null,a.createElement(K,null,"Back-End"),a.createElement(V,null,"Beginner experience with: ",a.createElement("br",null),"Node.js, ",a.createElement("br",null),"Express, ",a.createElement("br",null),"SQL, ",a.createElement("br",null),"Nginx ",a.createElement("br",null)))),a.createElement(Y,null,a.createElement("picture",null,a.createElement(H.MSM,{size:"3em"})),a.createElement(q,null,a.createElement(K,null,"UI/UX"),a.createElement(V,null,"Average experience with ",a.createElement("br",null),"Figma and Photoshop")))),a.createElement(M,{colorAlt:!0}))}const ee=r.default.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -738,7 +740,7 @@ font-size: 1.5rem;
     max-width: 500px;
     margin: 24px auto;
   }
-`,ee=r.default.div`
+`,te=r.default.div`
   background: #212D45;
   border-radius: 12px;
   height: 144px;
@@ -761,7 +763,7 @@ font-size: 1.5rem;
       grid-row:2;
     }
   }
-`,te=r.default.h5`
+`,ie=r.default.h5`
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -778,7 +780,7 @@ font-size: 1.5rem;
     font-size: 24px;
     line-height: 26px;
 }
-`,ie=r.default.p`
+`,ae=r.default.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -795,7 +797,7 @@ font-size: 1.5rem;
     font-size: 10px;
     line-height: 14px;
   }
-`,ae=(r.default.div`
+`;r.default.div`
   display: flex;
   max-width: 1040px;
   justify-content: center;
@@ -838,7 +840,7 @@ font-size: 1.5rem;
     width: 160px;
     justify-content: space-between;
   }
-`,[{number:1600,text:"Lichess Elo"}]);function ne(){return a.createElement(D,null,a.createElement(S,null,"Personal Achievements"),a.createElement(Z,null,ae.map(((e,t)=>a.createElement(ee,{key:t},a.createElement(te,null,`${e.number}+`),a.createElement(ie,null,e.text))))),a.createElement(P,null))}const re={fonts:{title:"Space Grotesk, sans-serif",main:"Space Grotesk, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0F1624",accent1:"hsl(34.9,98.6%,72.9%)",button:"hsl(205.1,100%,36.1%)",background2:"hsl(232.7,27.3%,23.7%)"},breakpoints:{sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)"}},le=r.default.div`
+`;function ne(){return a.createElement(D,null,a.createElement(S,null,"Personal Achievements"),a.createElement(ee,null,X.map(((e,t)=>a.createElement(te,{key:t},a.createElement(ie,null,`${e.number}+`),a.createElement(ae,null,e.text))))),a.createElement(M,null))}const re={fonts:{title:"Space Grotesk, sans-serif",main:"Space Grotesk, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0F1624",accent1:"hsl(34.9,98.6%,72.9%)",button:"hsl(205.1,100%,36.1%)",background2:"hsl(232.7,27.3%,23.7%)"},breakpoints:{sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)"}},le=r.default.div`
     width: 300px;
     height: 280px;
     position: absolute;
@@ -1034,7 +1036,7 @@ font-size: 1.5rem;
         bottom: 80px;
         opacity: 0;
     }
-`,we=r.keyframes`
+`,ke=r.keyframes`
     0% {
         bottom: 40px;
         opacity: 0;
@@ -1051,7 +1053,7 @@ font-size: 1.5rem;
         bottom: 80px;
         opacity: 0;
     }
-`,ke=r.default.div`
+`,we=r.default.div`
     width: 8px;
     height: 20px;
     position: absolute;
@@ -1060,7 +1062,7 @@ font-size: 1.5rem;
     opacity: 0;
     bottom: ${e=>e.bottom};
     left: ${e=>e.left};
-    animation: ${we} ${e=>e.animation};
+    animation: ${ke} ${e=>e.animation};
 `,Ee=r.default.div`
     width: 8px;
     height: 20px;
@@ -1071,4 +1073,4 @@ font-size: 1.5rem;
     bottom: ${e=>e.bottom};
     left: ${e=>e.left};
     animation: ${be} ${e=>e.animation};
-`;function $e(){return a.createElement(le,null,a.createElement(oe,null,a.createElement(pe,{left:"14px"}),a.createElement(pe,{left:"50px"}),a.createElement(de,null),a.createElement(me,null)),a.createElement(se,null,a.createElement(ce,null),a.createElement(xe,null),a.createElement(ue,null),a.createElement(ke,{bottom:"50px",left:"102px",animation:"3s 4s linear infinite"}),a.createElement(Ee,{bottom:"70px",left:"118px",animation:"3s 5s linear infinite"}),a.createElement(Ee,{bottom:"65px",left:"118px",animation:"3s 6s linear infinite"}),a.createElement(ke,{bottom:"50px",left:"102px",animation:"3s 5s linear infinite"}),a.createElement(he,null)),a.createElement(fe,null))}function ye(){return a.createElement(D,{id:"about"},a.createElement(S,null,"About Me"),a.createElement(O,null,"Currently working on my personal projects"))}n.render(a.createElement(a.StrictMode,null,a.createElement((function(){return a.createElement(p,{theme:re},a.createElement(d,null,a.createElement(f,null),a.createElement(D,{grid:!0},a.createElement(B,null),a.createElement($e,null)),a.createElement(X,null),a.createElement(Y,null),a.createElement(ye,null),a.createElement(ne,null),a.createElement(j,null)))}),null)),document.getElementById("root"))}},i={};function a(e){var n=i[e];if(void 0!==n)return n.exports;var r=i[e]={exports:{}};return t[e](r,r.exports,a),r.exports}a.m=t,e=[],a.O=(t,i,n,r)=>{if(!i){var l=1/0;for(m=0;m<e.length;m++){for(var[i,n,r]=e[m],o=!0,p=0;p<i.length;p++)(!1&r||l>=r)&&Object.keys(a.O).every((e=>a.O[e](i[p])))?i.splice(p--,1):(o=!1,r<l&&(l=r));if(o){e.splice(m--,1);var d=n();void 0!==d&&(t=d)}}return t}r=r||0;for(var m=e.length;m>0&&e[m-1][2]>r;m--)e[m]=e[m-1];e[m]=[i,n,r]},a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var i in t)a.o(t,i)&&!a.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),a.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={179:0};a.O.j=t=>0===e[t];var t=(t,i)=>{var n,r,[l,o,p]=i,d=0;if(l.some((t=>0!==e[t]))){for(n in o)a.o(o,n)&&(a.m[n]=o[n]);if(p)var m=p(a)}for(t&&t(i);d<l.length;d++)r=l[d],a.o(e,r)&&e[r]&&e[r][0](),e[l[d]]=0;return a.O(m)},i=self.webpackChunkreact_ts_template=self.webpackChunkreact_ts_template||[];i.forEach(t.bind(null,0)),i.push=t.bind(null,i.push.bind(i))})();var n=a.O(void 0,[675],(()=>a(974)));n=a.O(n)})();
+`;function $e(){return a.createElement(le,null,a.createElement(oe,null,a.createElement(pe,{left:"14px"}),a.createElement(pe,{left:"50px"}),a.createElement(de,null),a.createElement(me,null)),a.createElement(se,null,a.createElement(ce,null),a.createElement(xe,null),a.createElement(ue,null),a.createElement(we,{bottom:"50px",left:"102px",animation:"3s 4s linear infinite"}),a.createElement(Ee,{bottom:"70px",left:"118px",animation:"3s 5s linear infinite"}),a.createElement(Ee,{bottom:"65px",left:"118px",animation:"3s 6s linear infinite"}),a.createElement(we,{bottom:"50px",left:"102px",animation:"3s 5s linear infinite"}),a.createElement(he,null)),a.createElement(fe,null))}function ye(){return a.createElement(D,{id:"about"},a.createElement(S,null,"About Me"),a.createElement(O,null,"Currently working on my personal projects"))}n.render(a.createElement(a.StrictMode,null,a.createElement((function(){return a.createElement(p,{theme:re},a.createElement(d,null,a.createElement(f,null),a.createElement(D,{grid:!0},a.createElement(I,null),a.createElement($e,null)),a.createElement(J,null),a.createElement(Z,null),a.createElement(ye,null),a.createElement(ne,null),a.createElement(j,null)))}),null)),document.getElementById("root"))}},i={};function a(e){var n=i[e];if(void 0!==n)return n.exports;var r=i[e]={exports:{}};return t[e](r,r.exports,a),r.exports}a.m=t,e=[],a.O=(t,i,n,r)=>{if(!i){var l=1/0;for(m=0;m<e.length;m++){for(var[i,n,r]=e[m],o=!0,p=0;p<i.length;p++)(!1&r||l>=r)&&Object.keys(a.O).every((e=>a.O[e](i[p])))?i.splice(p--,1):(o=!1,r<l&&(l=r));if(o){e.splice(m--,1);var d=n();void 0!==d&&(t=d)}}return t}r=r||0;for(var m=e.length;m>0&&e[m-1][2]>r;m--)e[m]=e[m-1];e[m]=[i,n,r]},a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var i in t)a.o(t,i)&&!a.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),a.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={179:0};a.O.j=t=>0===e[t];var t=(t,i)=>{var n,r,[l,o,p]=i,d=0;if(l.some((t=>0!==e[t]))){for(n in o)a.o(o,n)&&(a.m[n]=o[n]);if(p)var m=p(a)}for(t&&t(i);d<l.length;d++)r=l[d],a.o(e,r)&&e[r]&&e[r][0](),e[l[d]]=0;return a.O(m)},i=self.webpackChunkreact_ts_template=self.webpackChunkreact_ts_template||[];i.forEach(t.bind(null,0)),i.push=t.bind(null,i.push.bind(i))})();var n=a.O(void 0,[675],(()=>a(974)));n=a.O(n)})();
