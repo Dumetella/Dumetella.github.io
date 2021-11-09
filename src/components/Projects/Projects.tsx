@@ -10,9 +10,9 @@ export default function Projects() {
       <SectionDivider />
       <SectionTitle main={true}>Projects</SectionTitle>
       <GridContainer>
-        {projects.map((p, i) => {
+        {projects.map((p, id) => {
           return (
-            <BlogCard key={i}>
+            <BlogCard key={id}>
               <ImgContainer>
                 <Img src={p.image} />
               </ImgContainer>

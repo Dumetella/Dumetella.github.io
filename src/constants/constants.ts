@@ -1,19 +1,33 @@
 export const projects = [
   {
-    title: 'React Puzzle Games',
-    description: "Small game project written with React, TypeScript and styled-components.",
-    image: '/images/taken.png',
-    source: 'https://github.com/Dumetella/react-15game',
-    visit: 'https://google.com',
+    title: 'React Chat',
+    description: "Websocket chat application inspired by old RTC-chats.",
+    image: '/images/react_chat.png',
+    source: 'https://github.com/Dumetella/react-weather',
+    visit: 'https://github.com/Dumetella/react-chat-front',
+    stack: ['react', 'ts', 'MUI'],
     id: 0,
   },
   {
     title: 'React Weather',
-    description: "Forecast web application written with React, TypeScript and MaterialUI",
+    description: "Small forecast web application",
     image: '/images/react_weather.png',
     source: 'https://github.com/Dumetella/react-weather',
+    stack: ['react', 'ts', 'MUI'],
     visit: 'https://dumetella-weather.herokuapp.com/',
-    id: 0,
+    id: 1,
   },
+  {
+    title: 'React Puzzle Games',
+    description: "Longterm WIP project.",
+    image: '/images/taken.png',
+    source: 'https://github.com/Dumetella/react-15game',
+    stack: ['react', 'ts', 'MUI'],
+    visit: '',
+    id: 2,
+  },
+];
 
+export const accomp = [
+  { number: 1600, text: 'Lichess Elo' },
 ];
