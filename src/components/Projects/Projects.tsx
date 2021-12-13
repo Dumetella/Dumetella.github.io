@@ -6,7 +6,7 @@ import { projects } from '../../constants/constants';
 
 export default function Projects() {
   return (
-    <Section nopadding id="projects">
+    <Section nopadding={true} id="projects">
       <SectionDivider />
       <SectionTitle main={true}>Projects</SectionTitle>
       <GridContainer>

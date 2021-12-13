@@ -1,13 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
-import { ThemeType } from './globalStyles/theme';
 
-
-interface GlobalStylesType {
-  theme: ThemeType;
-}
-
-const GlobalStyles = createGlobalStyle<GlobalStylesType>`
+const GlobalStyles = createGlobalStyle`
   ${normalize};
 
   * {

@@ -5,7 +5,16 @@ export const projects = [
     image: '/images/react_chat.png',
     source: 'https://github.com/Dumetella/react-weather',
     visit: 'https://github.com/Dumetella/react-chat-front',
-    stack: ['react', 'ts', 'MUI'],
+    stack: ['react', 'ts', 'styled-components', 'redux'],
+    id: 0,
+  },
+  {
+    title: 'Next Pizza',
+    description: "WIP",
+    image: '/images/react_chat.png',
+    source: 'https://github.com/Dumetella/react-weather',
+    visit: '',
+    stack: ['react', 'ts', 'styled-components', 'redux'],
     id: 0,
   },
   {
@@ -15,15 +24,6 @@ export const projects = [
     source: 'https://github.com/Dumetella/react-weather',
     stack: ['react', 'ts', 'MUI'],
     visit: 'https://dumetella-weather.herokuapp.com/',
-    id: 1,
-  },
-  {
-    title: 'React Puzzle Games',
-    description: "Longterm WIP project.",
-    image: '/images/taken.png',
-    source: 'https://github.com/Dumetella/react-15game',
-    stack: ['react', 'ts', 'MUI'],
-    visit: '',
     id: 2,
   },
 ];

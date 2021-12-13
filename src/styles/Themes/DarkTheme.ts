@@ -1,31 +1,8 @@
-type fonts = {
-    title: string;
-    main: string;
-}
+import { DefaultTheme } from "styled-components";
 
-type colors = {
-    primary1: string;
-    background1: string;
-    accent1: string;
-    button: string;
-    background2: string;
-}
-
-type breakpoints = {
-    sm: string;
-    md: string;
-    lg: string;
-    xl: string;
-}
-
-export interface ThemeType {
-    fonts: fonts,
-    colors: colors;
-    breakpoints: breakpoints;
-}
-
-const Theme: ThemeType = {
+const DarkTheme: DefaultTheme = {
     // Temp fonts
+    type: 'dark',
     fonts: {
         title: "Space Grotesk, sans-serif",
         main: "Space Grotesk, sans-serif"
@@ -47,4 +24,4 @@ const Theme: ThemeType = {
     },
 }
 
-export default Theme;
+export default DarkTheme;
