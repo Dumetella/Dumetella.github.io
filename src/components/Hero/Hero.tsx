@@ -13,13 +13,13 @@ export default function Hero() {
             I am Dumetella
           </SectionTitle>
           <SectionText>
-            I like coffee and to create useless web-applications at 5AM.
+            Fueled by coffee and addicted to coding all-nighters.
           </SectionText>
-
+          {/* <Button>Contact me</Button> */}
         </LeftSection>
       </Section>
     </>
   )
 }
 
-//<Button onClick={props.handleClick}>Invite to Dota2</Button>
+
