@@ -1,8 +1,8 @@
-(()=>{"use strict";var e,t={108:(e,t,i)=>{var a=i(294),n=i(935),o=i(163);const r=o.default.div`
+(()=>{"use strict";var e,t={108:(e,t,i)=>{var a=i(294),n=i(935),o=i(163);const l=o.default.div`
     max-width: 1280px;
     width: 100%;
     margin: auto;
-`;var l=i(583);const p=o.default.div`
+`;var r=i(583);const p=o.default.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -65,7 +65,7 @@ padding: 8px;
     cursor: pointer;
     
   }
-`;function h(){return a.createElement(p,null,a.createElement(d,null,a.createElement(c,null,"Dumetella")),a.createElement(m,null,a.createElement("li",null,a.createElement(c,{href:"#projects"},"Projects")),a.createElement("li",null,a.createElement(c,{href:"#tech"},"Technologies")),a.createElement("li",null,a.createElement(c,{href:"#about"},"About"))),a.createElement(s,null,a.createElement(x,{href:"https://github.com/Dumetella"},a.createElement(l.hJX,{size:"2.5em"})),a.createElement(x,{href:"https://t.me/dumetella"},a.createElement(l.Ww5,{size:"2.5em"}))))}const g=o.default.section`
+`;function h(){return a.createElement(p,null,a.createElement(d,null,a.createElement(c,null,"Dumetella")),a.createElement(m,null,a.createElement("li",null,a.createElement(c,{href:"#projects"},"Projects")),a.createElement("li",null,a.createElement(c,{href:"#tech"},"Technologies")),a.createElement("li",null,a.createElement(c,{href:"#about"},"About"))),a.createElement(s,null,a.createElement(x,{href:"https://github.com/Dumetella"},a.createElement(r.hJX,{size:"2.5em"})),a.createElement(x,{href:"https://t.me/dumetella"},a.createElement(r.Ww5,{size:"2.5em"}))))}const g=o.default.section`
   width: calc(100vw - 96px);
   max-width: 1040px;
   padding: 2rem 48px 40px;
@@ -204,7 +204,7 @@ justify-content: space-between;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
-`;function v(){return a.createElement(g,null,a.createElement(E,null,a.createElement($,null,a.createElement(y,null,"Email"),a.createElement(u,{href:"mailto:dumetella@outlook.com"},"dumetella@outlook.com"))),a.createElement(f,null,a.createElement(b,null,a.createElement(k,null,"Stuff happens cuz stuff")),a.createElement(w,null,a.createElement(x,{href:"https://github.com/Dumetella"},a.createElement(l.hJX,{size:"3em"})),a.createElement(x,{href:"https://t.me/dumetella"},a.createElement(l.Ww5,{size:"3em"})))))}const z=o.default.section`
+`;function v(){return a.createElement(g,null,a.createElement(E,null,a.createElement($,null,a.createElement(y,null,"Email"),a.createElement(u,{href:"mailto:dumetella@outlook.com"},"dumetella@outlook.com"))),a.createElement(f,null,a.createElement(b,null,a.createElement(k,null,"Stuff happens cuz stuff")),a.createElement(w,null,a.createElement(x,{href:"https://github.com/Dumetella"},a.createElement(r.hJX,{size:"3em"})),a.createElement(x,{href:"https://t.me/dumetella"},a.createElement(r.Ww5,{size:"3em"})))))}const z=o.default.section`
   display: ${e=>e.grid?"grid":"flex"};
   flex-direction: ${e=>e.row?"row":"column"};
   padding: ${e=>e.nopadding?"0":"32px 48px 0"} ;
@@ -480,16 +480,16 @@ justify-content: space-between;
 
     margin: 0 auto;
   }
-`);function O(){return a.createElement(a.Fragment,null,a.createElement(z,{row:!0,nopadding:!0},a.createElement(S,null,a.createElement(F,{main:!0,center:!0},"Hi ",a.createElement("br",null),"I am Dumetella"),a.createElement(j,null,"Fueled by coffee and addicted to coding all-nighters."))))}const P=o.default.img`
+`);function O(){return a.createElement(a.Fragment,null,a.createElement(z,{row:!0,nopadding:!0},a.createElement(S,null,a.createElement(F,{main:!0,center:!0},"Hi ",a.createElement("br",null),"I am Dumetella"),a.createElement(j,null,"Fueled by coffee and addicted to coding all-nighters."))))}const M=o.default.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
   max-height: 200px;
-`,_=o.default.div`
+`,P=o.default.div`
   display: flex;
   flex: 0 1;
-`,B=o.default.section`
+`,_=o.default.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
@@ -512,18 +512,18 @@ row-gap: 3rem;
   @media ${e=>e.theme.breakpoints.sm} {
     width: 100%;
   }
-`,C=o.default.div`
+`,B=o.default.div`
   text-align: center;
   z-index: 20;
   width: 100%;
 
-`,M=o.default.h3`
+`,C=o.default.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding-top: 2rem;
   font-size: ${e=>e.title?"3rem":"2rem"};
-`,I=o.default.hr`
+`,R=o.default.hr`
   width: 50px;
   height: 3px;
   margin: 20px auto;
@@ -548,7 +548,7 @@ row-gap: 3rem;
     padding:.3rem
   
 }
-`),R=o.default.ul`
+`),I=o.default.ul`
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -566,14 +566,7 @@ width: 8rem;
   background: #801414;
 
 }
-`,G=(o.default.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
-`,o.default.li`
-color: #d8bfbf;
-font-size: 1.5rem;
-`,[{id:0,title:"React Chat",description:"Websocket chat application inspired by old RTC-chats.",image:"/images/react_chat.png",source:"https://github.com/Dumetella/react-chat-front",visit:"https://dumetella-react-chat.herokuapp.com/",stack:["react","ts","styled-components","redux"]},{id:1,title:"Dodo Copy",description:"WIP",image:"/images/wip.png",source:"https://github.com/Dumetella/next-pizza",visit:"",stack:["react","ts","styled-components"]},{id:2,title:"React Weather",description:"Small forecast web application",image:"/images/react_weather.png",source:"https://github.com/Dumetella/react-weather",visit:"https://dumetella-weather.herokuapp.com/",stack:["react","ts","MUI"]}]),L=[{number:1600,text:"Lichess Elo"}];function N(){return a.createElement(z,{nopadding:!0,id:"projects"},a.createElement(D,null),a.createElement(F,{main:!0},"Projects"),a.createElement(B,null,G.map(((e,t)=>a.createElement(A,{key:t},a.createElement(_,null,a.createElement(P,{src:e.image})),a.createElement(C,null,a.createElement(M,null,e.title),a.createElement(I,null)),a.createElement(T,{className:"card-info"},e.description),a.createElement(R,null,a.createElement(W,{href:e.visit},"Live"),a.createElement(W,{href:e.source},"Source")))))))}var U=i(859);o.default.div`
+`,X=[{id:0,title:"React Chat",description:"Websocket chat application inspired by old RTC-chats.",image:"/images/react_chat.png",source:"https://github.com/Dumetella/react-chat-front",visit:"https://dumetella-react-chat.herokuapp.com/",stack:["react","ts","styled-components","redux"]},{id:1,title:"Dodo Copy",description:"A small copy of the famous Russian network of pizzerias",image:"/images/dodo.png",source:"https://github.com/Dumetella/next-pizza",visit:"https://next-pizza-ecru.vercel.app/",stack:["react","ts","styled-components","Next.js","MobX"]},{id:2,title:"React Weather",description:"Small forecast web application",image:"/images/react_weather.png",source:"https://github.com/Dumetella/react-weather",visit:"https://dumetella-weather.herokuapp.com/",stack:["react","ts","MUI"]}],G=[{number:1600,text:"Lichess Elo"}];function N(){return a.createElement(z,{nopadding:!0,id:"projects"},a.createElement(D,null),a.createElement(F,{main:!0},"Projects"),a.createElement(_,null,X.map(((e,t)=>a.createElement(A,{key:t},a.createElement(P,null,a.createElement(M,{src:e.image})),a.createElement(B,null,a.createElement(C,null,e.title),a.createElement(R,null)),a.createElement(T,{className:"card-info"},e.description),a.createElement(I,null,a.createElement(W,{href:e.visit},"Live"),a.createElement(W,{href:e.source},"Source")))))))}var U=i(859);o.default.div`
   text-align: center;
   background-image: radial-gradient(50% 50% at 50% 50%, rgba(79, 108, 176, 0.25) 53.8%, rgba(79, 108, 176, 0) 100%);
   width: 100%;
@@ -596,7 +589,7 @@ font-size: 1.5rem;
   }
 `,o.default.img`
   width: 100%;
-`;const X=o.default.ul`
+`;const J=o.default.ul`
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -617,7 +610,7 @@ font-size: 1.5rem;
     flex-direction: column;
     margin: 32px 0;
   }
-`,J=o.default.div`
+`,L=o.default.div`
   display: flex;
   flex-direction: column;
 
@@ -689,7 +682,7 @@ font-size: 1.5rem;
     height: 32px;
     margin-bottom: 0px;
   }
-`;function K(){return a.createElement(z,{id:"tech"},a.createElement(D,{divider:!0}),a.createElement(F,null,"Technologies"),a.createElement(j,null,"I have little commercial development experience, but I have a lot of enthusiasm for the modern front-end"),a.createElement(X,null,a.createElement(q,null,a.createElement("picture",null,a.createElement(U.GR$,{size:"3em"})),a.createElement(J,null,a.createElement(H,null,"Front-End"),a.createElement(Q,null,"intermediate experience with: ",a.createElement("br",null),"React.js, ",a.createElement("br",null),"TypeScript, ",a.createElement("br",null),"Redux, ",a.createElement("br",null),"styled-components ",a.createElement("br",null)))),a.createElement(q,null,a.createElement("picture",null,a.createElement(U.BwW,{size:"3em"})),a.createElement(J,null,a.createElement(H,null,"Back-End"),a.createElement(Q,null,"Beginner experience with: ",a.createElement("br",null),"Node.js, ",a.createElement("br",null),"Express, ",a.createElement("br",null),"SQL, ",a.createElement("br",null),"Nginx ",a.createElement("br",null)))),a.createElement(q,null,a.createElement("picture",null,a.createElement(U.MSM,{size:"3em"})),a.createElement(J,null,a.createElement(H,null,"UI/UX"),a.createElement(Q,null,"Average experience with ",a.createElement("br",null),"Figma and Photoshop")))),a.createElement(D,{colorAlt:!0}))}const V=o.default.div`
+`;function K(){return a.createElement(z,{id:"tech"},a.createElement(D,{divider:!0}),a.createElement(F,null,"Technologies"),a.createElement(j,null,"I have little commercial development experience, but I have a lot of enthusiasm for the modern front-end"),a.createElement(J,null,a.createElement(q,null,a.createElement("picture",null,a.createElement(U.GR$,{size:"3em"})),a.createElement(L,null,a.createElement(H,null,"Front-End"),a.createElement(Q,null,"React.js, ",a.createElement("br",null),"TypeScript, ",a.createElement("br",null),"Redux, ",a.createElement("br",null),"MobX, ",a.createElement("br",null),"styled-components, ",a.createElement("br",null),"MaterialUi ",a.createElement("br",null)))),a.createElement(q,null,a.createElement("picture",null,a.createElement(U.BwW,{size:"3em"})),a.createElement(L,null,a.createElement(H,null,"Back-End"),a.createElement(Q,null,"Node.js, ",a.createElement("br",null),"Express, ",a.createElement("br",null),"SQL, ",a.createElement("br",null),"Nginx, ",a.createElement("br",null),"Python, ",a.createElement("br",null),"Java ",a.createElement("br",null)))),a.createElement(q,null,a.createElement("picture",null,a.createElement(U.MSM,{size:"3em"})),a.createElement(L,null,a.createElement(H,null,"UI/UX"),a.createElement(Q,null,"Figma, ",a.createElement("br",null),"Photoshop ",a.createElement("br",null))))),a.createElement(D,{colorAlt:!0}))}const V=o.default.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -809,7 +802,7 @@ font-size: 1.5rem;
     width: 160px;
     justify-content: space-between;
   }
-`;function te(){return a.createElement(z,null,a.createElement(F,null,"Personal Achievements"),a.createElement(V,null,L.map(((e,t)=>a.createElement(Y,{key:t},a.createElement(Z,null,`${e.number}+`),a.createElement(ee,null,e.text))))),a.createElement(D,null))}const ie=o.default.div`
+`;function te(){return a.createElement(z,null,a.createElement(F,null,"Personal Achievements"),a.createElement(V,null,G.map(((e,t)=>a.createElement(Y,{key:t},a.createElement(Z,null,`${e.number}+`),a.createElement(ee,null,e.text))))),a.createElement(D,null))}const ie=o.default.div`
     width: 300px;
     height: 280px;
     position: absolute;
@@ -853,7 +846,7 @@ font-size: 1.5rem;
     background-color: #9acfc5;
     border: 5px solid #43beae;
     box-sizing: border-box;
-`,re=o.default.div`
+`,le=o.default.div`
     width: 8px;
     height: 20px;
     position: absolute;
@@ -861,7 +854,7 @@ font-size: 1.5rem;
     right: 10px;
     background-color: #9b9091;
     box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;
-`,le=o.default.div`
+`,re=o.default.div`
     width: 90%;
     height: 160px;
     position: absolute;
@@ -1042,7 +1035,7 @@ font-size: 1.5rem;
     bottom: ${e=>e.bottom};
     left: ${e=>e.left};
     animation: ${he} ${e=>e.animation};
-`;function be(){return a.createElement(ie,null,a.createElement(ae,null,a.createElement(ne,{left:"14px"}),a.createElement(ne,{left:"50px"}),a.createElement(oe,null),a.createElement(re,null)),a.createElement(le,null,a.createElement(pe,null),a.createElement(de,null),a.createElement(ce,null),a.createElement(ue,{bottom:"50px",left:"102px",animation:"3s 4s linear infinite"}),a.createElement(fe,{bottom:"70px",left:"118px",animation:"3s 5s linear infinite"}),a.createElement(fe,{bottom:"65px",left:"118px",animation:"3s 6s linear infinite"}),a.createElement(ue,{bottom:"50px",left:"102px",animation:"3s 5s linear infinite"}),a.createElement(me,null)),a.createElement(xe,null))}function ke(){return a.createElement(z,{id:"about"},a.createElement(F,null,"About Me"),a.createElement(j,null,"Currently working on my personal projects"))}var we=i(704);const Ee=o.createGlobalStyle`
+`;function be(){return a.createElement(ie,null,a.createElement(ae,null,a.createElement(ne,{left:"14px"}),a.createElement(ne,{left:"50px"}),a.createElement(oe,null),a.createElement(le,null)),a.createElement(re,null,a.createElement(pe,null),a.createElement(de,null),a.createElement(ce,null),a.createElement(ue,{bottom:"50px",left:"102px",animation:"3s 4s linear infinite"}),a.createElement(fe,{bottom:"70px",left:"118px",animation:"3s 5s linear infinite"}),a.createElement(fe,{bottom:"65px",left:"118px",animation:"3s 6s linear infinite"}),a.createElement(ue,{bottom:"50px",left:"102px",animation:"3s 5s linear infinite"}),a.createElement(me,null)),a.createElement(xe,null))}function ke(){return a.createElement(z,{id:"about"},a.createElement(F,null,"About Me"),a.createElement(j,null,"Currently working on my personal projects"))}var we=i(704);const Ee=o.createGlobalStyle`
   ${we.Fv};
 
   * {
@@ -1073,4 +1066,4 @@ font-size: 1.5rem;
     list-style: none;
   }
 
-`,$e={type:"dark",fonts:{title:"Space Grotesk, sans-serif",main:"Space Grotesk, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0F1624",accent1:"hsl(34.9,98.6%,72.9%)",button:"hsl(205.1,100%,36.1%)",background2:"hsl(232.7,27.3%,23.7%)"},breakpoints:{sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)"}};n.render(a.createElement(a.StrictMode,null,a.createElement(o.ThemeProvider,{theme:$e},a.createElement(Ee,null),a.createElement((function(){return a.createElement(r,null,a.createElement(h,null),a.createElement(z,{grid:!0},a.createElement(O,null),a.createElement(be,null)),a.createElement(N,null),a.createElement(K,null),a.createElement(ke,null),a.createElement(te,null),a.createElement(v,null))}),null))),document.getElementById("root"))}},i={};function a(e){var n=i[e];if(void 0!==n)return n.exports;var o=i[e]={exports:{}};return t[e](o,o.exports,a),o.exports}a.m=t,e=[],a.O=(t,i,n,o)=>{if(!i){var r=1/0;for(m=0;m<e.length;m++){for(var[i,n,o]=e[m],l=!0,p=0;p<i.length;p++)(!1&o||r>=o)&&Object.keys(a.O).every((e=>a.O[e](i[p])))?i.splice(p--,1):(l=!1,o<r&&(r=o));if(l){e.splice(m--,1);var d=n();void 0!==d&&(t=d)}}return t}o=o||0;for(var m=e.length;m>0&&e[m-1][2]>o;m--)e[m]=e[m-1];e[m]=[i,n,o]},a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var i in t)a.o(t,i)&&!a.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),a.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={179:0};a.O.j=t=>0===e[t];var t=(t,i)=>{var n,o,[r,l,p]=i,d=0;if(r.some((t=>0!==e[t]))){for(n in l)a.o(l,n)&&(a.m[n]=l[n]);if(p)var m=p(a)}for(t&&t(i);d<r.length;d++)o=r[d],a.o(e,o)&&e[o]&&e[o][0](),e[r[d]]=0;return a.O(m)},i=self.webpackChunkreact_ts_template=self.webpackChunkreact_ts_template||[];i.forEach(t.bind(null,0)),i.push=t.bind(null,i.push.bind(i))})();var n=a.O(void 0,[675],(()=>a(108)));n=a.O(n)})();
+`,$e={type:"dark",fonts:{title:"Space Grotesk, sans-serif",main:"Space Grotesk, sans-serif"},colors:{primary1:"hsl(204,23.8%,95.9%)",background1:"#0F1624",accent1:"hsl(34.9,98.6%,72.9%)",button:"hsl(205.1,100%,36.1%)",background2:"hsl(232.7,27.3%,23.7%)"},breakpoints:{sm:"screen and (max-width: 640px)",md:"screen and (max-width: 768px)",lg:"screen and (max-width: 1024px)",xl:"screen and (max-width: 1280px)"}};n.render(a.createElement(a.StrictMode,null,a.createElement(o.ThemeProvider,{theme:$e},a.createElement(Ee,null),a.createElement((function(){return a.createElement(l,null,a.createElement(h,null),a.createElement(z,{grid:!0},a.createElement(O,null),a.createElement(be,null)),a.createElement(N,null),a.createElement(K,null),a.createElement(ke,null),a.createElement(te,null),a.createElement(v,null))}),null))),document.getElementById("root"))}},i={};function a(e){var n=i[e];if(void 0!==n)return n.exports;var o=i[e]={exports:{}};return t[e](o,o.exports,a),o.exports}a.m=t,e=[],a.O=(t,i,n,o)=>{if(!i){var l=1/0;for(m=0;m<e.length;m++){for(var[i,n,o]=e[m],r=!0,p=0;p<i.length;p++)(!1&o||l>=o)&&Object.keys(a.O).every((e=>a.O[e](i[p])))?i.splice(p--,1):(r=!1,o<l&&(l=o));if(r){e.splice(m--,1);var d=n();void 0!==d&&(t=d)}}return t}o=o||0;for(var m=e.length;m>0&&e[m-1][2]>o;m--)e[m]=e[m-1];e[m]=[i,n,o]},a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var i in t)a.o(t,i)&&!a.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),a.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},(()=>{var e={179:0};a.O.j=t=>0===e[t];var t=(t,i)=>{var n,o,[l,r,p]=i,d=0;if(l.some((t=>0!==e[t]))){for(n in r)a.o(r,n)&&(a.m[n]=r[n]);if(p)var m=p(a)}for(t&&t(i);d<l.length;d++)o=l[d],a.o(e,o)&&e[o]&&e[o][0](),e[o]=0;return a.O(m)},i=self.webpackChunkreact_ts_template=self.webpackChunkreact_ts_template||[];i.forEach(t.bind(null,0)),i.push=t.bind(null,i.push.bind(i))})();var n=a.O(void 0,[675],(()=>a(108)));n=a.O(n)})();
